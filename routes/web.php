@@ -1,4 +1,6 @@
 <?php
+// new route
+// second route
 
 Route::redirect('/', '/login');
 Route::get('/home', function () {
