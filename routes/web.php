@@ -1,5 +1,5 @@
 <?php
-
+// new route
 Route::redirect('/', '/login');
 Route::get('/home', function () {
     if (session('status')) {
